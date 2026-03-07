@@ -1,0 +1,64 @@
+{
+ "creation": "2025-06-30 12:44:21.064719",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "original_invoice",
+  "total",
+  "total_taxes",
+  "tax_catagory",
+  "tax_rate",
+  "total_additional"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "original_invoice",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Original Invoice",
+   "options": "Sales Invoice"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total"
+  },
+  {
+   "fieldname": "total_taxes",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Taxes"
+  },
+  {
+   "fieldname": "tax_catagory",
+   "fieldtype": "Data",
+   "label": "Tax Catagory"
+  },
+  {
+   "fieldname": "tax_rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Tax Rate"
+  },
+  {
+   "fieldname": "total_additional",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Additional  "
+  }
+ ],
+ "istable": 1,
+ "modified": "2026-01-08 13:26:47.302279",
+ "modified_by": "Administrator",
+ "module": "E Invoice Erp",
+ "name": "Consolidated Invoice Entry",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

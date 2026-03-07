@@ -1,0 +1,120 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2024-06-25 17:30:40.555083",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "e_invoice_model",
+  "sales_e_invoice",
+  "api_credentials",
+  "api_access_token",
+  "uuid",
+  "invoice_status",
+  "reason",
+  "naming_series",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fetch_from": "sales_e_invoice.uuid",
+   "fieldname": "uuid",
+   "fieldtype": "Data",
+   "label": "Invoice UUID",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "default": "cancelled",
+   "fieldname": "invoice_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Invoice Status",
+   "options": "cancelled"
+  },
+  {
+   "fieldname": "reason",
+   "fieldtype": "Data",
+   "label": "reason",
+   "reqd": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "ACC-CND-.YYYY.-"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Cancel Document",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "api_credentials",
+   "fieldtype": "Link",
+   "label": "API Credentials",
+   "options": "API Credentials",
+   "reqd": 1
+  },
+  {
+   "fieldname": "api_access_token",
+   "fieldtype": "Long Text",
+   "hidden": 1,
+   "label": "token"
+  },
+  {
+   "fieldname": "e_invoice_model",
+   "fieldtype": "Link",
+   "label": "E Invoice Model",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "sales_e_invoice",
+   "fieldtype": "Dynamic Link",
+   "label": "E Invoice",
+   "options": "e_invoice_model",
+   "reqd": 1
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2026-01-08 20:22:54.890258",
+ "modified_by": "Administrator",
+ "module": "E Invoice Erp",
+ "name": "Cancel Document",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
