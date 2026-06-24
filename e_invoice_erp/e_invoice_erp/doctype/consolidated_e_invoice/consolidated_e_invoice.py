@@ -1,6 +1,5 @@
 # Copyright (c) 2025, Alharazi_hisham and contributors
 # For license information, please see license.txt
-from __future__ import unicode_literals
 import logging
 import pdb
 import base64
