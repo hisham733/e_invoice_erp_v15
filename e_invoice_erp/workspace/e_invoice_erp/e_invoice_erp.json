@@ -1,0 +1,153 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"hdr-QL2a\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"sht-Gn4j\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales E Invoice\",\"col\":3}},{\"id\":\"sht-8uE0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Consolidated E Invoice\",\"col\":3}},{\"id\":\"sht-Txfj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"API Credentials\",\"col\":3}},{\"id\":\"sht-nUtE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Cancel Document\",\"col\":3}},{\"id\":\"spc-fGxz\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hdr-eEi2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>E-Invoice Management</b></span>\",\"col\":12}},{\"id\":\"crd-9oZJ\",\"type\":\"card\",\"data\":{\"card_name\":\"Sales\",\"col\":4}},{\"id\":\"crd-0mGe\",\"type\":\"card\",\"data\":{\"card_name\":\"Consolidation\",\"col\":4}},{\"id\":\"crd-dJ0C\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings & Status\",\"col\":4}}]",
+ "custom_blocks": [],
+ "creation": "2025-01-01 00:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "file-invoice",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "E Invoice Erp",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales E Invoice",
+   "link_count": 0,
+   "link_to": "Sales E Invoice",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cancel Document",
+   "link_count": 0,
+   "link_to": "Cancel Document",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Consolidation",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Consolidated E Invoice",
+   "link_count": 0,
+   "link_to": "Consolidated E Invoice",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Consolidated Invoice Entry",
+   "link_count": 0,
+   "link_to": "Consolidated Invoice Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings & Status",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "API Credentials",
+   "link_count": 0,
+   "link_to": "API Credentials",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Get Document Details",
+   "link_count": 0,
+   "link_to": "Get Document Details",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Get Document Info",
+   "link_count": 0,
+   "link_to": "Get Document Info",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-01-01 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "E Invoice Erp",
+ "name": "E Invoice Erp",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 9.0,
+ "shortcuts": [
+  {
+   "label": "Sales E Invoice",
+   "link_to": "Sales E Invoice",
+   "type": "DocType"
+  },
+  {
+   "label": "Consolidated E Invoice",
+   "link_to": "Consolidated E Invoice",
+   "type": "DocType"
+  },
+  {
+   "label": "API Credentials",
+   "link_to": "API Credentials",
+   "type": "DocType"
+  },
+  {
+   "label": "Cancel Document",
+   "link_to": "Cancel Document",
+   "type": "DocType"
+  }
+ ],
+ "title": "E Invoice Erp",
+ "type": "Workspace"
+}
